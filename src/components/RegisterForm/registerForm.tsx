@@ -2,7 +2,7 @@ import React from 'react';
 import './registerForm.css';
 import { FaUser, FaLock } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-const LoginForm = () => {
+const CadastroForm = () => {
   return (
       <div className='wrapper'>
         <form action="">
@@ -27,4 +27,4 @@ const LoginForm = () => {
   )
 }
 
-export default LoginForm;
+export default CadastroForm;
